@@ -1,0 +1,25 @@
+.col {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 20px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-sel {
+    border: 5px solid skyblue;
+}
+
+.btn-matched {
+    border: 5px solid green;
+}
+
+.btn-incorrect {
+    border: 5px solid red;
+}

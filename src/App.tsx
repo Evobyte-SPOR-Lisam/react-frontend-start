@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import NumbersGame from "./components/NumbersGame";
 
 function App() {
 	const [count, setCount] = useState(1);
@@ -36,6 +37,12 @@ function App() {
 				}}>
 				Reset count
 			</button>
+
+			<p></p>
+
+			<div>
+				<NumbersGame />
+			</div>
 		</>
 	);
 }
