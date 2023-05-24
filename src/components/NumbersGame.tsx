@@ -58,13 +58,17 @@ export default function NumbersGame() {
 		if (selectedRight + selectedLeft === 0) {
 			result = "correct";
 		}
-		setLeftStates({
-			...leftStates,
-			[selectedLeft]: result,
+		setLeftStates((leftStates) => {
+			return {
+				...leftStates,
+				[selectedLeft]: result,
+			};
 		});
-		setRightStates({
-			...rightStates,
-			[selectedRight]: result,
+		setRightStates((rightStates) => {
+			return {
+				...rightStates,
+				[selectedRight]: result,
+			};
 		});
 		setSelectedLeft(undefined);
 		setSelectedRight(undefined);
