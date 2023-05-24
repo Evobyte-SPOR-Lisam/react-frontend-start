@@ -81,7 +81,7 @@ export default function NumbersGame() {
 	return (
 		<div>
 			<h2>Numbers matching game</h2>
-			<h3>Score:</h3>
+			<h3>Score: TODO</h3>
 
 			<div className="col">
 				<div className="btns">
